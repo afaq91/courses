@@ -33,6 +33,34 @@ const Header = () => {
       <Link to="/addnewtraining">Add New Training Course</Link>
       <Link to="/addnewtrainingonline">Add New Training/Online Course</Link>
       </li>
+
+
+
+      <li>
+        <Link to="#" className="coursessession">Certificates<i class="fa fa-caret-down" aria-hidden="true"></i>
+        </Link>
+      </li>
+      <li className="dropdown coursessessiondropdown">
+      <Link to="/addnewcertificate" className="nav-item">Add New Certificate</Link>   
+      <Link to="/managecertificate" className="nav-item">Manage Certificate</Link>      
+      </li>
+
+
+
+
+
+      <li>
+        <Link to="#" className="coursessession">Blogs<i class="fa fa-caret-down" aria-hidden="true"></i>
+        </Link>
+      </li>
+      <li className="dropdown coursessessiondropdown">
+      <Link to="/addnewcertificate" className="nav-item">Add New Blog</Link>   
+      <Link to="/manageblog" className="nav-item">Manage Blog</Link>      
+      </li>
+
+
+
+
     </ul>
             </div> 
             

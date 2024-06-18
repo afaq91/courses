@@ -5,6 +5,10 @@ import Home from './Home';
 import AddNewCourse from './AddNewCourse';
 import AddNewTraining from './AddNewTraining';
 import AddNewTrainingOnline from './AddNewTrainingOnline';
+import AddNewCertificate from './AddNewCertificate';
+import ManageCertificate from './ManageCertificate';
+import ManageBlog from './ManageBlog';
+
 import styles from './style.css';
 
 
@@ -18,6 +22,9 @@ const App = () => {
                     <Route path="/addonlinecourse" component={AddNewCourse} />
                     <Route path="/addnewtraining" component={AddNewTraining} />
                     <Route path="/addnewtrainingonline" component={AddNewTrainingOnline} />
+                    <Route path="/addnewcertificate" component={AddNewCertificate} />
+                    <Route path="/managecertificate" component={ManageCertificate} />
+                    <Route path="/manageblog" component={ManageBlog} />
                 </Switch>
             </div>
         </Router>
