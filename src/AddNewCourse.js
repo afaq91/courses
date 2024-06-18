@@ -69,10 +69,7 @@ const AddNewCourse = () => {
         </div>
 
 
-
-
-
-                                    <div className="form-group">
+        <div className="form-group">
           <label htmlFor="coursename">*Introduction
           </label>
           <CKEditor
@@ -140,9 +137,6 @@ const AddNewCourse = () => {
 
 
 
-
-
-
 <div className="row">
 
 <div className="col-lg-6">
@@ -162,9 +156,6 @@ const AddNewCourse = () => {
 
 
 
-
-
-
 <div className="row">
 
 <div className="col-lg-6">
@@ -180,10 +171,6 @@ const AddNewCourse = () => {
 
 
 </div>
-
-
-
-
 
 
 
@@ -222,10 +209,6 @@ const AddNewCourse = () => {
 </div>
 
 </div>
-
-
-
-
 
 
 
@@ -274,13 +257,6 @@ const AddNewCourse = () => {
 </div>
 
 </div>
-
-
-
-
-
-
-
 
 
 
