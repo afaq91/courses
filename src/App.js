@@ -8,6 +8,7 @@ import AddNewTrainingOnline from './AddNewTrainingOnline';
 import AddNewCertificate from './AddNewCertificate';
 import ManageCertificate from './ManageCertificate';
 import ManageBlog from './ManageBlog';
+import AddNewBlog from './AddNewBlog';
 
 import styles from './style.css';
 
@@ -25,6 +26,7 @@ const App = () => {
                     <Route path="/addnewcertificate" component={AddNewCertificate} />
                     <Route path="/managecertificate" component={ManageCertificate} />
                     <Route path="/manageblog" component={ManageBlog} />
+                    <Route path="/addnewblog" component={AddNewBlog} />
                 </Switch>
             </div>
         </Router>

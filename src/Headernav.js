@@ -54,7 +54,7 @@ const Header = () => {
         </Link>
       </li>
       <li className="dropdown coursessessiondropdown">
-      <Link to="/addnewcertificate" className="nav-item">Add New Blog</Link>   
+      <Link to="/addnewblog" className="nav-item">Add New Blog</Link>   
       <Link to="/manageblog" className="nav-item">Manage Blog</Link>      
       </li>
 
